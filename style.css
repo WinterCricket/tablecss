@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+}
+main nav {
+	display: block;
+}
+main {
+	
+	background-image: url("windreeds.gif");
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	border-radius: 25px;
+	
+}
+main h1 {
+	font-family: 'Chicle', cursive;
+	text-align: center;
+}
+p:first-letter {
+	font-size: 3em;
+	font-family: 'Chicle', cursive;
+	color: rgba(200, 0, 0, .4);
+}
+caption {
+	font-size: 2em;
+	font-family: 'Chicle', cursive;
+
+}
+@media screen and (min-width: 500px) { tr:nth-child(even) {
+	background-color: rgb(134, 153, 77,.40);
+	
+}
+}
+@media screen and (max-width: 499px) { tr:nth-child(even) {
+	background-color: rgb(200, 0, 0,.40);
+	
+}
+}
+td {
+	/*border: solid black 1px;*/
+	text-align: center;
+	height: 50px;
+	padding: 10px;
+	padding-bottom: 20px;
+	vertical-align: bottom;
+	color: white;
+	font-size: 1.2em;
+	}
+tr:hover {
+	background-color: rgba(100, 100, 200, .3);
+	
+}
+td:hover {
+	border: solid black 1px;
+	text-align: center;
+	height: 50px;
+	padding: 10px;
+	padding-bottom: 20px;
+	vertical-align: bottom;
+	color: rgba(50, 20, 0, .8);
+	font-size: 1.2em;
+	}
+th {
+	height: 20px;
+	padding: 10px;
+	vertical-align: bottom;
+	align-content: center;
+}
+table {
+	border: collapse;
+	align-content: center;
+	margin: auto;
+
+
+}
+
+}
+td:nth-child(1) {
+	width: 20%
+}
+
+h1, p {
+	text-align: center;
+}
+
